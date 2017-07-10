@@ -1,0 +1,408 @@
+@import url(//db.onlinewebfonts.com/c/a93f809ddf972ff5e894c00d85ed5839?family=KennedySmCapsBookGDW01-Rg);
+@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield');
+
+body {
+  background-color: #202020;
+}
+
+.off-canvas ul li a {
+  color: white;
+}
+
+.off-canvas ul {
+  margin-top: 20px;
+}
+
+.first-item {
+  color: #747474;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  margin: 20px 20px 5px 20px;
+}
+
+.sub-menu {
+  margin: 0 0 20px 20px;
+}
+
+.dropdown {
+  display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.top-bar.sticky.is-at-top.is-stuck {
+  background-color: #202020;
+}
+
+.top-bar {
+  border-bottom: solid 1px #2d2d2d;
+}
+
+.top-bar, .top-bar ul {
+  background-color: #202020;
+  color: white;
+  z-index: 100;
+}
+
+.top-bar, .top-bar ul a {
+  color: white;
+}
+
+.top-bar ul a:hover {
+  color: #cb9b09;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #cb9b09 transparent transparent;
+  margin-top: -1px;
+}
+
+.top-bar-right ul li {
+  margin-right: 20px;
+}
+
+.top-bar-left .menu-text {
+  font-family: "KennedySmCapsBookGDW01-Rg";
+  font-weight: normal;
+  font-size: 1.5em;
+  letter-spacing: 0.06em;
+  background: -webkit-linear-gradient(#cb9b09, #997506);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top-bar-left .menu-text span {
+  font-size: 1.5em;
+}
+
+.menu > li > a {
+  padding: 0.7em 1.5em;
+}
+
+.dropdown li:first-child {
+  padding-right:15px
+}
+
+.top-bar-right {
+  padding-top: 10px;
+}
+
+.container {
+  padding: 64px 0;
+}
+
+.billboard-container {
+  padding: 32px 0.9375rem 0 0.9375rem;
+}
+
+.banner {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-color: black;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.banner img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  z-index: 10;
+  opacity: 0.4;
+  width: 100%;
+}
+
+.banner-small {
+  height: 250px;
+}
+
+.cta {
+  z-index: 20;
+  max-width: 1200px;
+  min-width: 600px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+  color: white;
+}
+
+.cta h1 {
+  opacity: 0;
+  margin-bottom: 0.2em;
+}
+
+.cta p {
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  opacity: 0;
+}
+.cta .button {
+  opacity: 0;
+}
+
+h1 {
+  font-family: "KennedySmCapsBookGDW01-Rg";
+  font-size: 3.3em;
+  line-height: 1em;
+}
+
+h2 {
+  font-family: "KennedySmCapsBookGDW01-Rg";
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.alternate-bg {
+  background-color: #F4F4F4;
+}
+
+.positives {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.positives span {
+  color: #cb9b09;
+  margin-right: 8px;
+}
+
+.service {
+  margin: 32px 0;
+}
+
+.service p {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.certass-container {
+  border: 1px solid #E4E4E4;
+  padding: 0;
+}
+
+.certass-container .copy {
+  padding: 16px;
+}
+
+.certass-container .copy p {
+  font-size: 0.75em;
+  margin: 0;
+  max-height: inherit;
+}
+
+.certass-img-container {
+  height: 200px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.certass-img-container img {
+  height: 180px;
+  padding-top: 16px;
+}
+
+.service-img-container {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.service-img-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+}
+
+.centered {
+  text-align: center;
+}
+
+.stars {
+  color: #f08f00;
+  margin-bottom: 32px;
+}
+
+.review-img-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  margin: 32px auto 16px;
+  z-index: 0;
+}
+
+.review-img-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%)translateY(-50%);
+}
+
+.footer {
+  background-color: #202020;
+  color: white;
+}
+
+.footer .row {
+  padding: 32px 0;
+}
+
+.footer ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li a {
+  color: white;
+}
+
+.footer ul li a:hover {
+  color: #cb9b09;
+}
+
+.sub-title {
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.logo {
+  font-family: "KennedySmCapsBookGDW01-Rg";
+  font-weight: normal;
+  font-size: 1.2em;
+  letter-spacing: 0.06em;
+  background: -webkit-linear-gradient(#cb9b09, #997506);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo span {
+  font-size: 1.5em;
+}
+
+.signoff {
+  font-size: .75em;
+  color: #ccc;
+}
+
+.madeby {
+  color: #ccc;
+  margin-top: 8px;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.madeby span {
+  text-decoration: underline;
+}
+
+.signature {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 3em;
+  line-height: 1em;
+  margin-top: 32px;
+}
+
+.signature-signoff {
+  margin-bottom: 32px;
+}
+
+.testimonial-container {
+  background-color: white;
+  padding: 32px 0 64px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contact-area {
+
+}
+
+.contact-area h3 {
+  font-size: 1.3em;
+  margin-bottom: 16px;
+  padding-right: 32px;
+}
+
+.contact-area h3 a {
+  font-weight: bold;
+}
+
+.contact-message {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 39.9375em) {
+
+  .banner {
+    height: 360px;
+  }
+
+  .banner-small {
+    height: 200px;
+  }
+
+  .cta {
+    min-width: 362px;
+  }
+
+  .container {
+    padding: 32px 0;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .service-footer {
+    padding: 0;
+  }
+
+  .madeby {
+    margin-top: 25px;
+  }
+
+  .positives {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 64em) {
+
+  .contact-area {
+    margin-bottom: 32px;
+  }
+
+  .billboard-container {
+    padding: 0;
+  }
+
+}
