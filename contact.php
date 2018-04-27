@@ -70,7 +70,7 @@ $required = "<span style=\"color:red;font-weight: bold\">*</span>";
 
   <div class="cta">
     <h1 id="ctatitle">Contact us</h1>
-    <p id="ctacopy" class="quote">"We give a 10 year insurance backed guarantee on all our installations."
+    <p id="ctacopy" class="quote">"Efficient, quick and excellent. Would highly recommend."
     </p>
   </div>
 

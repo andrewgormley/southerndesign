@@ -37,10 +37,6 @@
           </p>
         </div>
 
-        <div class="columns small-12 large-4">
-          <?php include "includes/certass.php"; ?>
-        </div>
-
       </div>
     </div>
 

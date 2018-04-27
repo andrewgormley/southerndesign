@@ -100,7 +100,7 @@
           <a href="hardwood">Read more</a>
         </div>
 
-        <div class="columns small-12 medium-6 large-4 service">
+        <div class="columns small-12 medium-6 large-4 end service">
           <div class="service-img-container">
             <img src="img/home/upvc.jpg" alt="upvc windows and doors">
           </div>
@@ -109,10 +109,6 @@
             It's popularity is due to it's durability,
             excellent energy efficiency and value for money.</p>
           <a href="upvc">Read more</a>
-        </div>
-
-        <div class="columns small-12 medium-6 large-4 service">
-          <?php include "includes/certass.php"; ?>
         </div>
 
       </div>

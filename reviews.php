@@ -170,10 +170,6 @@ I can't recommend him highly enough. THANKYOU...
 
         <div class="columns small-12 medium-12 large-4">
 
-          <div class="columns small-12 medium-6 large-12">
-            <?php include "includes/certass.php"; ?>
-          </div>
-
           <div class="columns small-12 medium-6 large-12 end">
             <div class="fb-page" data-href="https://www.facebook.com/southerndesignwindows/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/southerndesignwindows/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/southerndesignwindows/">SoutHern Design</a></blockquote></div>
           </div>

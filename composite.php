@@ -30,11 +30,7 @@
             SoutHern Design can supply and fit composite doors to suit all budgets.
           </p>
         </div>
-
-        <div class="columns small-12 large-4">
-          <?php include "includes/certass.php"; ?>
-        </div>
-
+        
       </div>
     </div>
 
