@@ -231,6 +231,10 @@ h3 {
   margin-bottom: 32px;
 }
 
+.testimonial .review-img-container {
+  margin: 8px 0;
+}
+
 .review-img-container {
   height: 50px;
   width: 50px;
